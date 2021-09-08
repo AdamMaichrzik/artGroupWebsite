@@ -1,23 +1,23 @@
 .container {
 	margin-bottom: 150px;
+	margin-top: 200px;
 }
 
 .scissorsPhoto {
 	position: absolute;
-    top: 15px;
-    left: 0px;
-    height: 400px;
-    width: 350px;
+	top: 15px;
+	left: 0px;
+	height: 400px;
+	width: 350px;
 }
 
-.firstMainText {
-	margin-top: 200px;
-	font-size: 30px;
+.rowHeader {
+	font-size: 25px;
 	color: #3e4555;
 }
 
 .topParagraph {
-	font-size: 13px;
+	font-size: 8px;
 	color: #8d97ad;
 }
 
@@ -34,8 +34,6 @@
 .officePhoto {
 	position: absolute;
 	z-index: 100;
-    width: 510px;
-    height: 380px;
 }
 
 .secondContainer {
@@ -50,4 +48,9 @@
 	text-align: center;
 	color: red;
 	font-size: 30px;
+}
+
+.secondRowParagraph {
+	color: #8d97ad;
+	font-size: 10px;
 }
