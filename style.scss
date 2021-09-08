@@ -1,28 +1,39 @@
-.firstMainText{
-    margin-top: 150px;
-    font-size: 36px;
-    color: #3E4555;
+.firstMainText {
+	margin-top: 150px;
+	font-size: 36px;
+	color: #3e4555;
 }
 
-.topParagraph{
-    font-size: 13px;
-    color: #8D97AD;
+.topParagraph {
+	font-size: 13px;
+	color: #8d97ad;
 }
 
-.bottomParagraph{
-font-size: 18px;
-
-.secondContainer{
-    background-color: #F5F7FA;
+.bottomParagraph {
+	font-size: 18px;
 }
 
-.circle{
-    border-radius: 50%;
-    background-color: white;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    color: red;
-    font-size: 30px;
+.greenPhotoBackground {
+    position: relative;
+    left: 80px;
+    bottom: 50px;
+}
 
+.officePhoto{
+    position: absolute;
+    z-index: 100;
+}
+
+.secondContainer {
+	background-color: #f5f7fa;
+}
+
+.circle {
+	border-radius: 50%;
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	color: red;
+	font-size: 30px;
 }
