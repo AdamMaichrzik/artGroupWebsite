@@ -59,6 +59,15 @@
 	font-size: 30px;
 }
 
+.carouselPhotoTile{
+    cursor: pointer;
+    z-index: 100;
+}
+
+.carouselPhotoTile:hover{
+    opacity: 70%;
+}
+
 .secondRowSmallText {
 	font-size: 10px;
 	color: #8d97ad;
@@ -111,4 +120,28 @@
     height: 150px;
     color: #8D97AD;
     padding: 30px;
+}
+
+@media (max-width: 576px){
+    .officePhoto{
+        width: 330px;
+        height: 250px;
+    }
+
+    .greenPhotoBackground{
+        height: 250px;
+        width: 315px;;
+    }
+
+    .bottomParagraph{
+        margin-bottom: 50px;
+    }
+
+    .buttonStyling{
+        margin-bottom: 13px;
+    }
+
+    .carouselPhotoTile{
+        margin-bottom: 30px;
+    }
 }
