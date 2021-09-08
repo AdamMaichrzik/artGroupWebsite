@@ -1,6 +1,18 @@
+.container {
+	margin-bottom: 150px;
+}
+
+.scissorsPhoto {
+	position: absolute;
+    top: 15px;
+    left: 0px;
+    height: 400px;
+    width: 350px;
+}
+
 .firstMainText {
-	margin-top: 150px;
-	font-size: 36px;
+	margin-top: 200px;
+	font-size: 30px;
 	color: #3e4555;
 }
 
@@ -14,14 +26,16 @@
 }
 
 .greenPhotoBackground {
-    position: relative;
-    left: 80px;
-    bottom: 50px;
+	position: relative;
+	left: 80px;
+	bottom: 50px;
 }
 
-.officePhoto{
-    position: absolute;
-    z-index: 100;
+.officePhoto {
+	position: absolute;
+	z-index: 100;
+    width: 510px;
+    height: 380px;
 }
 
 .secondContainer {
