@@ -59,13 +59,13 @@
 	font-size: 30px;
 }
 
-.carouselPhotoTile{
-    cursor: pointer;
-    z-index: 100;
+.carouselPhotoTile {
+	cursor: pointer;
+	z-index: 100;
 }
 
-.carouselPhotoTile:hover{
-    opacity: 70%;
+.carouselPhotoTile:hover {
+	opacity: 70%;
 }
 
 .secondRowSmallText {
@@ -115,33 +115,51 @@
 	background-color: white;
 }
 
-.secondFooter{
-    margin-top: 0;
-    height: 150px;
-    color: #8D97AD;
-    padding: 30px;
+.secondFooter {
+	margin-top: 0;
+	height: 150px;
+	color: #8d97ad;
+	padding: 30px;
 }
 
-@media (max-width: 576px){
-    .officePhoto{
-        width: 330px;
-        height: 250px;
-    }
+@media (max-width: 576px) {
+	.officePhoto {
+		width: 330px;
+		height: 250px;
+	}
 
-    .greenPhotoBackground{
-        height: 250px;
-        width: 315px;;
-    }
+	.greenPhotoBackground {
+		height: 250px;
+		width: 315px;
+	}
 
-    .bottomParagraph{
-        margin-bottom: 50px;
-    }
+	.bottomParagraph {
+		margin-bottom: 50px;
+	}
 
-    .buttonStyling{
-        margin-bottom: 13px;
-    }
+	.buttonStyling {
+		margin-bottom: 13px;
+	}
 
-    .carouselPhotoTile{
-        margin-bottom: 30px;
-    }
+	.carouselPhotoTile {
+		margin-bottom: 30px;
+	}
+}
+
+.carousel-control-prev {
+    margin-left: -50px;
+    width: 30px;
+  }
+  
+  .carousel-control-next {
+    margin-right: -50px;
+    width: 30px;
+  }
+
+.carousel-control-prev-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238D97AD' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2329AF8A' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
