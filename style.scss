@@ -122,6 +122,20 @@
 	padding: 30px;
 }
 
+.carousel-control-prev {
+	margin-left: -50px;
+	width: 50px;
+}
+
+.carousel-control-next {
+	margin-right: -50px;
+	width: 50px;
+}
+
+#mobileGalleryCarousel {
+	display: none;
+}
+
 @media (max-width: 576px) {
 	.officePhoto {
 		width: 330px;
@@ -144,17 +158,35 @@
 	.carouselPhotoTile {
 		margin-bottom: 30px;
 	}
-}
 
-.carousel-control-prev {
-    margin-left: -50px;
-    width: 30px;
-  }
-  
-  .carousel-control-next {
-    margin-right: -50px;
-    width: 30px;
-  }
+	.carousel-control-prev {
+		margin-left: 0px;
+		width: 50px;
+	}
+
+	.carousel-control-next {
+		margin-right: 0px;
+		width: 50px;
+	}
+
+	#mobileGalleryCarousel {
+		display: block;
+	}
+
+	#desktopGalleryCarousel {
+		display: none;
+	}
+
+	.galleryTextBox {
+		position: absolute;
+		z-index: 100;
+		color: white;
+		bottom: 30px;
+		background: linear-gradient(transparent, rgb(36, 36, 36));
+        margin-right: 3px;
+        margin-left: 3px;
+	}
+}
 
 .carousel-control-prev-icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238D97AD' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
